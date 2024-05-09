@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:orientation="vertical"
+    android:padding="18dp"
+    android:background="#EADFB4">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:id="@+id/registerText"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/etUsernameRegister"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/registerText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textStyle="italic"
+        android:hint="Username"
+        android:drawableStart="@drawable/baseline_account_circle_24"
+        android:drawablePadding="20dp"
+        android:padding="10dp"
+        android:layout_marginBottom="15dp"/>
+
+    <EditText
+        android:id="@+id/etNameRegister"
+        android:layout_below="@+id/etUsernameRegister"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textStyle="italic"
+        android:hint="Name"
+        android:drawablePadding="20dp"
+        android:drawableStart="@drawable/baseline_account_box_24"
+        android:padding="10dp"
+        android:layout_marginBottom="15dp"/>
+
+    <EditText
+        android:id="@+id/etPasswordRegister"
+        android:layout_below="@+id/etNameRegister"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:drawableStart="@drawable/baseline_admin_panel_settings_24"
+        android:hint="Password"
+        android:textStyle="italic"
+        android:drawablePadding="20dp"
+        android:padding="10dp"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_below="@id/etPasswordRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Register"
+        android:layout_marginBottom="15dp"/>
+
+    <TextView
+        android:id="@+id/tvAlreadyHaveAccount"
+        android:layout_below="@id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:text="Already Have Account? Login Here"/>
+
+
+</LinearLayout>
