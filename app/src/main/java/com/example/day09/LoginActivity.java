@@ -23,12 +23,12 @@ import retrofit2.Response;
 
 public class LoginActivity extends AppCompatActivity {
 
-    Button btnLogin;
     TextView tvCreateAccount;
+    Button btnLogin;
     EditText etUsernameLogin, etPasswordLogin;
+    SessionManager sessionManager;
     String usernameLogin, passwordLogin;
     ApiInterface apiInterface;
-    SessionManager sessionManager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

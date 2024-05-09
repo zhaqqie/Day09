@@ -20,10 +20,10 @@ import retrofit2.Response;
 
 public class RegisterActivity extends AppCompatActivity {
 
-    Button btnRegister;
-    TextView tvAlreadyHaveAccount;
     EditText etUsernameRegister, etPasswordRegister, etNameRegister;
+    Button btnRegister;
     String usernameRegister, passwordRegister, nameRegister;
+    TextView tvAlreadyHaveAccount;
     ApiInterface apiInterface;
 
     @Override

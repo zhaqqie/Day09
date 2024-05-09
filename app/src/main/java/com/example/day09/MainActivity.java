@@ -12,10 +12,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.day09.Ui.SessionManager;
 
 public class MainActivity extends AppCompatActivity {
-
-    SessionManager sessionManager;
     TextView etMainUsername, etMainName;
     String usernameMain, nameMain;
+    SessionManager sessionManager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

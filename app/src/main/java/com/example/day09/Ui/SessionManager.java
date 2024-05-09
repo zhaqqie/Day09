@@ -11,8 +11,8 @@ import java.util.HashMap;
 
 public class SessionManager {
     private Context _context;
-    private SharedPreferences sharedPreferences;
     private SharedPreferences.Editor editor;
+    private SharedPreferences sharedPreferences;
 
     public static final String IS_LOGGED_IN = "isLoggedIn";
     public static final String USER_ID = "user_id";
